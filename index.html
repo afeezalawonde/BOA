@@ -28,12 +28,7 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: Bootslander - v4.10.0
-  * Template URL: https://bootstrapmade.com/bootslander-free-bootstrap-landing-page-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+ 
 </head>
 
 <body>
@@ -62,7 +57,7 @@
             <h1>Creating a <span>Seamless</span> Hospitality Service <span>Experience</span></h1>
             <h2>we partner with <strong>Restaurants</strong> helping them get more <strong>Visibility</strong> and <strong>Customers</strong></h2>
             <div class="text-center text-lg-start">
-              <a href="#about" class="btn-get-started scrollto">Get Started</a>
+              <a class="btn-get-started" href="#contact" >Get Started</a>
             </div>
           </div>
         </div>
@@ -112,7 +107,7 @@
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
               <div class="icon"><i class="bx bx-mobile"></i></div>
               <h4 class="title"><a href="">TABLE RESERVATION</a></h4>
-              <p class="description">Help Customers to find you easily from anywhere, at any giving time on their <strong>BRIDGEORDER MOBILE APP</strong> and book a Table Reservation.</p>
+              <p class="description">Help Customers to find you easily from anywhere, at any given time on their <strong>BRIDGEORDER MOBILE APP</strong> and book a Table Reservation.</p>
             </div>
 
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
@@ -381,28 +376,26 @@
 
           <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left" data-aos-delay="200">
 
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form action="webform.php" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="text" name="name" class="form-control" id="restaurant" placeholder="Restaurant Name" required>
+                  <input type="text" name="restaurant" class="form-control" id="restaurant" placeholder="Restaurant Name" required>
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
                   <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
                 </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="phone" class="form-control" name="phone" id="phone" placeholder="Phone no." required>
+                </div>
               </div>
               <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Position(e.g manager,supervisor,owner...)" required>
+                <input type="text" class="form-control" name="position" id="subject" placeholder="Position(e.g manager,supervisor,owner...)" required>
               </div>
               
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send</button></div>
+              <div class="text-center"><button type="submit" name="submit" >Send</button></div>
             </form>
 
           </div>
